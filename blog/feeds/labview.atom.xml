@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/labview.atom.xml" rel="self"></link><id>./</id><updated>2017-07-06T02:22:00+08:00</updated><entry><title>LabVIEW-W2</title><link href="./LabVIEW-W2.html" rel="alternate"></link><published>2017-07-06T02:22:00+08:00</published><updated>2017-07-06T02:22:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-06:./LabVIEW-W2.html</id><summary type="html">&lt;p&gt;LabVIEW第二周上課紀錄&lt;/p&gt;
+
+
+&lt;table border="5" width="100%" align="center"&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center" rowspan="5" bgcolor='#FFD78C'&gt;Ctrl +&lt;/td&gt;
+&lt;td style="text-align:left""&gt;A: 全部選取&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;B: 去除(Block Diagram)錯誤的連接現&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;T: 將兩視窗(Front Panel and Block Diagram)對稱放置&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;Z: 回到上一步&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;左鍵案住移動: 可增加空白處&lt;/td&gt;
+&lt;tr&gt;
+&lt;/table&gt;
+
+&lt;h3&gt;在空白處點兩下,可建立註解&lt;/h3&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;基本說明: (加上圖片)&lt;/h3&gt;
+&lt;p&gt;&lt;br&gt;
+正整數(英文名稱)跟浮點數(名稱)
+&lt;br&gt;
+正整數: 沒小數點,例如: 12或0或112
+&lt;br&gt;
+浮點數: 有小數點,例如: 12.1234或0.124
+&lt;br&gt;
+.....................................................................................................................................................................
+&lt;br&gt;
+constat跟cotrl
+&lt;br&gt;
+constat: 只能在Block Diagram視窗控制,而且執行中不能進行更改
+&lt;br&gt;
+cotrl: 可在Fornt Panel視窗控制
+&lt;br&gt;
+.....................................................................................................................................................................
+&lt;br&gt;
+in(正確名稱)跟out(正確名稱)
+&lt;br&gt;
+輸入數值
+&lt;br&gt;
+接收訊號&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;範例#1:&lt;/h3&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;img src="./../data/LabVIEW/W2/Array.jpg" width="600" /&gt;
+&lt;br&gt;
+&lt;img src="./../data/LabVIEW/W2/Array.png" width="600" /&gt;
+&lt;br&gt;
+Array中文意思為矩陣
+&lt;br&gt;
+注意: 補上工具跟矩陣的名稱
+&lt;br&gt;
+這工具顯示這Array有多有邊(size (s)),也就是如上圖的矩陣有12/0/3/9/6的數字,也就代表有五個邊
+&lt;br&gt;
+矩陣左方能輸入數值,當數值是0時,代表從0邊開始顯示,也就是說,假如把這矩陣改成1,他就會顯示(抓圖片)
+&lt;br&gt;
+這工具是收這邊的數值,例如: 輸入1,就會顯示1邊的數值,注意: 矩陣第一位的邊是以0表示
+&lt;br&gt;
+這工具能融合數值,對他點擊右鍵可選擇別的融合方式
+&lt;br&gt;
+例如:
+&lt;br&gt;
+例如:
+&lt;br&gt;
+例如:&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;範例#2:&lt;/h3&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;img src="./../data/LabVIEW/W2/For loop Array.jpg" width="600" /&gt;
+&lt;br&gt;
+&lt;img src="./../data/LabVIEW/W2/For loop Array.png" width="600" /&gt;
+&lt;br&gt;
+For loop: 執行到要求的次數,才會停止
+&lt;br&gt;
+如果是Wilh loop要到設定條件才會停滯
+&lt;br&gt;
+在迴圈能使用這個功能(名稱),當0加上1進入後方(名稱),指令會將這個1數值帶回去起始投,再跑N次(看你N輸入幾次)
+&lt;br&gt;
+注意: 要給初始值(左方連接0),才會會背上一次的紀錄給干擾
+&lt;br&gt;
+i為記錄For loop的進行次數,在這範例N=9,也就是會跑9次,但是當For loop跑完第一次時,i會記入圍0,也就是跑完9次時i會顯示8,因為i是從0開始記錄(所以才要+1)
+&lt;br&gt;
+時間(名稱)&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;範例#3:&lt;/h3&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;img src="./../data/LabVIEW/W2/99 multiplication.jpg" width="600" /&gt;
+&lt;br&gt;
+&lt;img src="./../data/LabVIEW/W2/99 multiplication.png" width="600" /&gt;
+&lt;br&gt;
+將For loop內再放入For loop,外圈的For跑第一次內部的For就要跑完九次,因為For的定義是內部程式跑完才在執行下一次,所以才會顯示出九九乘法表&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;範例#4:&lt;/h3&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;img src="./../data/LabVIEW/W2/Waveform.jpg" width="600" /&gt;
+&lt;br&gt;
+&lt;img src="./../data/LabVIEW/W2/Waveform.png" width="600" /&gt;
+&lt;br&gt;
+DBL的功用是將正整數轉成福點數,因為For loop的i是以正整數顯示,要跟福點數運算就需要DBL
+&lt;br&gt;
+所以圖中的50(contant),把它改成福點數就可以不用接上DBL&lt;/p&gt;</summary><category term="notes"></category><category term="LabVIEW"></category></entry></feed>
