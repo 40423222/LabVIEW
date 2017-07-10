@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-07-06T02:22:00+08:00</updated><entry><title>LabVIEW-W2</title><link href="./LabVIEW-W2.html" rel="alternate"></link><published>2017-07-06T02:22:00+08:00</published><updated>2017-07-06T02:22:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-06:./LabVIEW-W2.html</id><summary type="html">&lt;p&gt;LabVIEW第二周上課紀錄&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-07-07T04:54:00+08:00</updated><entry><title>LabVIEW-W3</title><link href="./LabVIEW-W3.html" rel="alternate"></link><published>2017-07-07T04:54:00+08:00</published><updated>2017-07-07T04:54:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-07:./LabVIEW-W3.html</id><summary type="html">&lt;p&gt;LabVIEW第三次上課紀錄&lt;/p&gt;
+
+
+&lt;hr&gt;
+
+&lt;h3&gt;vi轉成縮圖:&lt;/h3&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;img src="./../data/LabVIEW/W3/into img.png" width="850" /&gt;
+&lt;br&gt;
+&lt;img src="./../data/LabVIEW/W3/pin and img.png" width="600" /&gt;&lt;/p&gt;
+&lt;h3&gt;範例:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/LabVIEW/W3/T-vi.png" width="600" /&gt;
+&lt;br&gt;
+&lt;img src="./../data/LabVIEW/W3/Front-T.png" width="600" /&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Max值 &amp;gt; Min值:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/LabVIEW/W3/max-min.png" width="850" /&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;迴圈同步:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/LabVIEW/W3/start-stop.png" width="850" /&gt;
+&lt;br&gt;
+&lt;img src="./../data/LabVIEW/W3/Local Variable.png" width="850" /&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Stopwatch:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/LabVIEW/W3/stopwatch.png" width="850" /&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;Cluster:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/LabVIEW/W3/Cluster.png" width="850" /&gt;&lt;/p&gt;
+&lt;h3&gt;Cluster-Make Type Def:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/LabVIEW/W3/Make Type Def.png" width="850" /&gt;
+&lt;br&gt;
+&lt;img src="./../data/LabVIEW/W3/Cluster example.png" width="850" /&gt;
+&lt;br&gt;
+&lt;table border="5" width="100%" align="center"&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"  bgcolor='#FFD78C'&gt;Cluster-Make Type Def&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left""&gt;Control: 更改後與Front Panel不會同步&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;Type Def: 更改後與Front Panel格式同步,但圖片不同步&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;Strict Type Def: 更改後與Front Panel完全同步&lt;/td&gt;
+&lt;tr&gt;
+&lt;/table&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="LabVIEW"></category></entry><entry><title>LabVIEW-W2</title><link href="./LabVIEW-W2.html" rel="alternate"></link><published>2017-07-06T02:22:00+08:00</published><updated>2017-07-06T02:22:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-07-06:./LabVIEW-W2.html</id><summary type="html">&lt;p&gt;LabVIEW第二次上課紀錄&lt;/p&gt;
 
 
 &lt;hr&gt;

@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>LabVIEW-W2 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <title>LabVIEW-W3 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,18 +10,18 @@
 
 
 
-<link rel="canonical" href="./LabVIEW-W2.html">
+<link rel="canonical" href="./LabVIEW-W3.html">
 
         <meta name="author" content="40423222" />
         <meta name="keywords" content="notes,LabVIEW" />
-        <meta name="description" content="LabVIEW第二次上課紀錄" />
+        <meta name="description" content="LabVIEW第三次上課紀錄" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="LabVIEW-W2"/>
-        <meta property="og:url" content="./LabVIEW-W2.html"/>
-        <meta property="og:description" content="LabVIEW第二次上課紀錄"/>
-        <meta property="article:published_time" content="2017-07-06" />
+        <meta property="og:title" content="LabVIEW-W3"/>
+        <meta property="og:url" content="./LabVIEW-W3.html"/>
+        <meta property="og:description" content="LabVIEW第三次上課紀錄"/>
+        <meta property="article:published_time" content="2017-07-07" />
             <meta property="article:section" content="LabVIEW" />
             <meta property="article:tag" content="notes" />
             <meta property="article:tag" content="LabVIEW" />
@@ -132,10 +132,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./LabVIEW-W2.html"
+                    <a href="./LabVIEW-W3.html"
                        rel="bookmark"
-                       title="Permalink to LabVIEW-W2">
-                        LabVIEW-W2
+                       title="Permalink to LabVIEW-W3">
+                        LabVIEW-W3
                     </a>
                 </h1>
             </header>
@@ -145,7 +145,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-07-06T02:22:00+08:00"> Thu 06 July 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-07-07T04:54:00+08:00"> Fri 07 July 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423222.html"><i class="fa fa-user"></i> 40423222</a>
@@ -159,128 +159,54 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>LabVIEW第二次上課紀錄</p>
+                <p>LabVIEW第三次上課紀錄</p>
 
 
 <hr>
 
+<h3>vi轉成縮圖:</h3>
+<p><br>
+<img src="./../data/LabVIEW/W3/into img.png" width="850" />
+<br>
+<img src="./../data/LabVIEW/W3/pin and img.png" width="600" /></p>
+<h3>範例:</h3>
+<p><img src="./../data/LabVIEW/W3/T-vi.png" width="600" />
+<br>
+<img src="./../data/LabVIEW/W3/Front-T.png" width="600" /></p>
+<hr>
+
+<h3>Max值 &gt; Min值:</h3>
+<p><img src="./../data/LabVIEW/W3/max-min.png" width="850" /></p>
+<hr>
+
+<h3>迴圈同步:</h3>
+<p><img src="./../data/LabVIEW/W3/start-stop.png" width="850" />
+<br>
+<img src="./../data/LabVIEW/W3/Local Variable.png" width="850" /></p>
+<hr>
+
+<h3>Stopwatch:</h3>
+<p><img src="./../data/LabVIEW/W3/stopwatch.png" width="850" /></p>
+<hr>
+
+<h3>Cluster:</h3>
+<p><img src="./../data/LabVIEW/W3/Cluster.png" width="850" /></p>
+<h3>Cluster-Make Type Def:</h3>
+<p><img src="./../data/LabVIEW/W3/Make Type Def.png" width="850" />
+<br>
+<img src="./../data/LabVIEW/W3/Cluster example.png" width="850" />
+<br>
 <table border="5" width="100%" align="center">
 <tr>
-<td style="text-align:center" rowspan="5" bgcolor='#FFD78C'>Ctrl +</td>
-<td style="text-align:left"">A: 全部選取</td>
+<td style="text-align:center"  bgcolor='#FFD78C'>Cluster-Make Type Def</td>
 <tr>
-<td style="text-align:left">B: 去除(Block Diagram)錯誤的連接現</td>
+<td style="text-align:left"">Control: 更改後與Front Panel不會同步</td>
 <tr>
-<td style="text-align:left">T: 將兩視窗(Front Panel and Block Diagram)對稱放置</td>
+<td style="text-align:left">Type Def: 更改後與Front Panel格式同步,但圖片不同步</td>
 <tr>
-<td style="text-align:left">Z: 回到上一步</td>
+<td style="text-align:left">Strict Type Def: 更改後與Front Panel完全同步</td>
 <tr>
-<td style="text-align:left">左鍵案住移動: 可增加空白處</td>
-<tr>
-</table>
-
-<p><br></p>
-<h3>在空白處點兩下,可建立註解</h3>
-<hr>
-
-<h3>基本說明:</h3>
-<p><br>
-正整數(Numeric)跟浮點數(DBL Numeric)
-<br>
-正整數: 沒小數點,例如: 12或0或112
-<br>
-浮點數: 有小數點,例如: 12.1234或0.124
-<br>
-<img src="./../data/LabVIEW/W2/Numeric.jpg" width="600" />
-<br>
-<img src="./../data/LabVIEW/W2/DBL Numeric.jpg" width="600" />
-<br>
-.....................................................................................................................................................................
-<br>
-Constant跟Control
-<br>
-Constant: 只能在Block Diagram視窗控制,而且執行中不能進行更改
-<br>
-Control: 可在Fornt Panel視窗控制
-<br>
-<img src="./../data/LabVIEW/W2/Constant change to Control.jpg" width="600" />
-<br>
-.....................................................................................................................................................................
-<br>
-Control(輸出)跟Indicator(接收)
-<br>
-Control: 輸入數值
-<br>
-Indicator: 接收訊號
-<img src="./../data/LabVIEW/W2/Control and Indicator.jpg" width="600" /></p>
-<hr>
-
-<h3>範例#1:</h3>
-<p><br>
-<img src="./../data/LabVIEW/W2/Array.jpg" width="600" />
-<br>
-<img src="./../data/LabVIEW/W2/Array.png" width="600" />
-<br>
-Array中文意思為矩陣
-<br>
-注意: 補上工具跟矩陣的名稱
-<br>
-Array Size工具顯示這Array有多大,例如: 矩陣12/0/3/9/6,顯示出的size(s)為5(五個數值)
-<br>
-矩陣左方能輸入數值,當數值是0時,代表從第0個數值開始顯示,也就是說,假如把矩陣12/0/3/9/6左方輸入1,他就會顯示0/3/9/6
-<br>
-Index Array工具是顯示第幾個的數值,例如: 輸入1,就會顯示第1個的數值,注意: 矩陣第一位的數值是以0表示
-<br>
-Build Array工具能融合數值,對他點擊右鍵可選擇別的融合方式
-<br>
-例如:
-<br>
-<img src="./../data/LabVIEW/W2/Build Array.png" width="600" /></p>
-<hr>
-
-<h3>範例#2:</h3>
-<p><br>
-<img src="./../data/LabVIEW/W2/For loop Array.jpg" width="600" />
-<br>
-<img src="./../data/LabVIEW/W2/For loop Array.png" width="600" />
-<br>
-For Loop: 執行到要求的次數,才會停止
-<br>
-如果是While Loop要到設定條件才會停滯
-<br>
-在迴圈能使用Add Shift Register功能,當0加上1進入後方(上箭頭),指令會將這個1數值帶回去起始投(下箭頭),再跑N次(看你N輸入幾次)
-<br>
-注意: 要給初始值(左方連接0),才會會背上一次的紀錄給干擾
-<br>
-i為記錄For Loop的進行次數,在這範例N=9,也就是會跑9次,但是當For Loop跑完第一次時,i會以0數值記錄第一次迴圈,也就是跑完9次時i會顯示8,因為i是從0開始記錄(所以才要+1)</p>
-<hr>
-
-<h3>範例#3:</h3>
-<p><br>
-<img src="./../data/LabVIEW/W2/99 multiplication.jpg" width="600" />
-<br>
-<img src="./../data/LabVIEW/W2/99 multiplication.png" width="600" />
-<br>
-將For Loop內再放入For Loop,外圈的For跑第一次內部的For就要跑完九次,因為For的定義是內部程式跑完才在執行下一次,所以才會顯示出九九乘法表</p>
-<hr>
-
-<h3>範例#4:</h3>
-<p><br>
-<img src="./../data/LabVIEW/W2/Waveform.jpg" width="600" />
-<br>
-<img src="./../data/LabVIEW/W2/Waveform.png" width="600" />
-<br>
-DBL的功用是將正整數轉成浮點數,因為For Loop的i是以正整數顯示,要跟浮點數運算就需要DBL
-<br>
-所以圖中的50(contant),把它改成福點數就可以不用接上DBL
-<br></p>
-<h3>Waveform:</h3>
-<p><br>
-Chart: 在接收到新訊息,會跟舊訊起顯示,不斷地連續下去(注意: 是有儲存限制,能去設定更改)
-<br>
-Graph: 在接收到新訊息,會直接刷新,不會跟舊訊息連續
-<br>
-注意: 可比對Time的數量</p>
+</table></p>
             </div>
             <!-- /.entry-content -->
         </article>
